@@ -11,7 +11,7 @@ export default function App() {
       <Header/>
       <div className='h-full overflow-auto'>
         <Router>
-          <Route path="/" component={CharacterPage} />
+          <Route path="/trpg-list-maker" component={CharacterPage} />
         </Router>
       </div>
     </div>
